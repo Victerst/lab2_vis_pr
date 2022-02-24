@@ -78,7 +78,7 @@ namespace Class1
                 }
             }
             if (result.ToString() == "")
-                throw new RomanNumberException("Преобразование чисел в римские цифры невозможно");
+                throw new RomanNumberException("!Преобразование чисел в римские цифры невозможно!");
             else
                 return result.ToString();
 
@@ -94,7 +94,7 @@ namespace Class1
             if (obj is RomanNumber basic_roman_numerals)
                 return _number.CompareTo(basic_roman_numerals._number);
             else
-                throw new RomanNumberException("object is not a RomanNumber");
+                throw new RomanNumberException("!Это не Римская цифра!");
         }
 
     }
