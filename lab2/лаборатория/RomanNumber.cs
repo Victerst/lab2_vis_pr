@@ -2,7 +2,7 @@
 using System.Text;
 
 
-namespace Class1
+namespace RomanNumber
 {
     public class RomanNumber : ICloneable, IComparable
     {
