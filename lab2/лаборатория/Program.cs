@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Class1
+namespace RomanNumber
 {
      class Program
     {
